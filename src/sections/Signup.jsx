@@ -55,7 +55,7 @@ const Signup = () => {
      animate={{width:"100%"}}
      exit={{x:window.innerWidth,transition:{duration:0.5}}}>
       <Navbar/>
-      <Glass bgimg={"https://user-images.githubusercontent.com/101392591/193494979-deedef9c-02e9-47ae-9e88-a07e87ba4044.jpg"}>
+      <Glass>
       <Text fontSize={"4xl"}>SignUp</Text>
         <Input width={"350px"} mt="5%" name="name" onChange={handleChange} placeholder="Add your name here" />
         <Input width={"350px"} mt="5%" name="email" onChange={handleChange} placeholder="Add your email" />
@@ -69,4 +69,4 @@ const Signup = () => {
   )
 }
 
-export default Signup
+export default Signup;

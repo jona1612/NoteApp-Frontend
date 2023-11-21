@@ -12,4 +12,4 @@ const NavbarComp = ({to,title,disp}) => {
   )
 }
 
-export default NavbarComp
+export default NavbarComp;

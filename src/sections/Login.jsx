@@ -62,7 +62,7 @@ const Login = () => {
      exit={{x:window.innerWidth,transition:{duration:0.5}}}
     >
       <Navbar/>
-      <Glass bgimg={"https://user-images.githubusercontent.com/101392591/193494994-66849985-36cd-4612-a93a-a8cc08b1ee17.jpg"}>
+      <Glass>
       <Text fontSize={"4xl"}>LOGIN</Text>
         <Input width={"350px"} mt="5%" name="email" onChange={handleChange} placeholder="type your email" />
         <Input width={"350px"} type="password" mt="5%" name="password" onChange={handleChange} placeholder="type your Password" />
@@ -76,4 +76,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
